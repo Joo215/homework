@@ -89,7 +89,7 @@
 
 .main-mention {
   border: 3px solid #f7f7f7;
-  margin: 15px;
+  margin: 30px;
   border-radius: 10px;
   padding: 20px;
   display: flex;
@@ -130,7 +130,7 @@
 }
 
 .main-buttom {
-  margin-top: 20px;
+  margin: 20px;
   color: rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: center;
