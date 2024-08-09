@@ -1,0 +1,139 @@
+.main-top {
+  border-bottom: 3px solid #f7f7f7;
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.main-top_left img {
+  width: 60px;
+  border-radius: 5px;
+}
+
+.main-top_right {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.main-top_right-top {
+  padding-top: 8px;
+}
+
+.main-top_right-under {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.main-chat1 {
+  display: flex;
+  justify-content: end;
+  align-content: center;
+  margin: 20px;
+}
+
+.main-chat1__time {
+  padding-right: 5px;
+  font-size: 18px;
+  color: gray;
+  display: flex;
+  justify-content: end;
+  align-content: end;
+  flex-direction: column;
+}
+
+.main-chat1__des {
+  font-size: 20px;
+  width: 350px;
+  border-radius: 25px 0px 25px 25px;
+  background-color: #fe7e35;
+  padding: 10px 15px 10px 15px;
+  color: #ffca95;
+  line-height: 30px;
+}
+
+.main-chat2 {
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  margin: 20px;
+}
+
+.main-chat2__img img {
+  width: 35px;
+  height: 35px;
+  border-radius: 30px;
+}
+
+.main-chat2__des {
+  font-size: 20px;
+  border-radius: 0px 25px 25px 25px;
+  background-color: #eaebef;
+  padding: 10px 15px 10px 15px;
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.main-chat2__time {
+  padding-left: 5px;
+  font-size: 18px;
+  color: gray;
+  display: flex;
+  justify-content: end;
+  align-content: end;
+  flex-direction: column;
+}
+
+.main-mention {
+  border: 3px solid #f7f7f7;
+  margin: 15px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: start;
+  align-content: start;
+}
+
+.main-mention__icons img {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: rgb(173, 171, 171);
+  color: white;
+  padding: 2px;
+}
+
+.main-mention__icons {
+  display: flex;
+  justify-content: start;
+  align-content: start;
+}
+
+.main-mention__des {
+  display: flex;
+  justify-content: start;
+  align-content: start;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+.main-mention__doc {
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.main-mention__under {
+  padding-top: 10px;
+}
+
+.main-buttom {
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-weight: bold;
+}
